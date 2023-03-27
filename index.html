@@ -20,8 +20,7 @@ var t="3c73637269707420747970653d22746578742f6a6176617363726970742220646174612d6
 
 		jwplayer("player").setup({
 			playlist: [{
-	       title : "REPRODUCTOR | Mega Televisión",
-	       description: "EN VIVO",
+	       title : "REPRODUCTOR |Psy TV",
 				"sources": [{
 					"default": true,
 					"label": "0",
@@ -30,7 +29,7 @@ var t="3c73637269707420747970653d22746578742f6a6176617363726970742220646174612d6
 					"drm": {"clearkey": {"keyId": atob(getData("kid")), "key": atob(getData("k"))}}
 				}]
 			}],
-			width: "100%", height: "100%", aspectratio: "16:9", autostart: false, cast: {}, sharing: {}
+			width: "100%", height: "100%", aspectratio: "16:9", autostart: true, cast: {}
 		});
 
 playerInstance.on("ready", function () {
