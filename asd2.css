@@ -24,9 +24,10 @@ li {
   background-color: #5557;
   padding: 10px;
   border-radius: 5px;
-  margin-bottom: 20px; /* Agregado para separar los bloques*/
-  display: flex; /* Agregado para centrar los logos */
-  justify-content: center; /* Agregado para centrar los logos */
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Agregado para centrar verticalmente */
 }
 
 /* Modificado para que la imagen del logo sea responsive */
