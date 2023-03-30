@@ -1,110 +1,111 @@
 /* Estilos CSS para la página */
 body {
-  background-color: #222222;
-  color: #ffffff;
-  font-size: 20px;
-  margin-left: 45px;
+background-color: #222222;
+color: #ffffff;
+font-size: 20px;
+margin-left: 45px;
 }
 
 ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+list-style: none;
+margin: 0;
+padding: 0;
 }
 
 li {
-  display: inline-block;
-  margin-right: 20px;
-  vertical-align: top;
+display: inline-block;
+margin-right: 20px;
+vertical-align: top;
 }
 
-/* Modificado para hacer que los bloques sean cuadrados */
+/* Modificado para hacer que los bloques sean cuadrados /
 .lm-info-block {
-  width: 200px;
-  height: 200px;
-  background-color: #5557;
-  padding: 10px;
-  border-radius: 5px;
-  text-align: center; /* Agregado para centrar los logos */
+width: 200px;
+height: 200px;
+background-color: #5557;
+padding: 10px;
+border-radius: 5px;
+text-align: center; / Agregado para centrar los logos /
+margin-bottom: 20px; / Agregado para separar los bloques */
 }
 
 /* Modificado para que la imagen del logo sea responsive */
 .lm-info-block img {
-  max-width: 100%;
-  height: auto;
+max-width: 100%;
+height: auto;
 }
 
 li:hover img {
-  transform: scale(1.5);
+transform: scale(1.5);
 }
 
 form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
-  margin-top: -35px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 20px;
+margin-top: -35px;
 }
 
 form label {
-  margin-bottom: 10px;
-  font-size: 20px;
-  font-weight: bold;
-  /* Agregado para hacer que "BUSCAR" esté en negrita */
-  text-align: center;
+margin-bottom: 10px;
+font-size: 20px;
+font-weight: bold;
+/* Agregado para hacer que "BUSCAR" esté en negrita */
+text-align: center;
 }
 
 input[type="text"] {
-  height: 22px;
-  width: 50%;
-  max-width: 280px;
-  /* Agrega un ancho máximo para evitar que la barra de búsqueda sea demasiado ancha en pantallas grandes */
-  font-size: 20px;
-  border: 2px solid #ccc;
-  border-radius: 5px;
-  padding: 5px;
-  border-width: 3px;
-  /* Ajusta el grosor de la barra de búsqueda */
+height: 22px;
+width: 50%;
+max-width: 280px;
+/* Agrega un ancho máximo para evitar que la barra de búsqueda sea demasiado ancha en pantallas grandes /
+font-size: 20px;
+border: 2px solid #ccc;
+border-radius: 5px;
+padding: 5px;
+border-width: 3px;
+/ Ajusta el grosor de la barra de búsqueda */
 }
 
 label,
 button {
-  font-size: 20px;
+font-size: 20px;
 }
 
 /* Media queries para dispositivos móviles */
 @media only screen and (max-width: 768px) {
-  li img {
-    width: 90px;
-  }
+li img {
+width: 90px;
+}
 
-  /* Modificado para que los bloques sean cuadrados */
-  .lm-info-block {
-    width: 150px;
-    height: 150px;
-  }
+/* Modificado para que los bloques sean cuadrados */
+.lm-info-block {
+width: 150px;
+height: 150px;
+}
 
-  form {
-    margin-top: -30px;
-  }
+form {
+margin-top: -30px;
+}
 }
 
 @media only screen and (max-width: 480px) {
-  li img {
-    width: 70px;
-  }
+li img {
+width: 70px;
+}
 
-  /* Modificado para que los bloques sean cuadrados */
-  .lm-info-block {
-    width: 100px;
-    height: 100px;
-  }
+/* Modificado para que los bloques sean cuadrados */
+.lm-info-block {
+width: 100px;
+height: 100px;
+}
 
-  form {
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-  }
+form {
+margin-top: auto;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
 }
