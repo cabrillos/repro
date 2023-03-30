@@ -19,7 +19,7 @@ li {
 
 /*Modificado para hacer que los bloques sean cuadrados */
 .lm-info-block {
-  width: 10px;
+  width: 100px;
   height: 100px;
   background-color: #5557;
   padding: 10px;
