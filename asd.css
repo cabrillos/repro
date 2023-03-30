@@ -25,6 +25,7 @@ li {
   background-color: #5557;
   padding: 10px;
   border-radius: 5px;
+  text-align: center; /* Agregado para centrar los logos */
 }
 
 /* Modificado para que la imagen del logo sea responsive */
