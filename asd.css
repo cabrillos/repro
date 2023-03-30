@@ -18,15 +18,15 @@ margin-right: 20px;
 vertical-align: top;
 }
 
-/* Modificado para hacer que los bloques sean cuadrados /
+/*Modificado para hacer que los bloques sean cuadrados */
 .lm-info-block {
 width: 200px;
 height: 200px;
 background-color: #5557;
 padding: 10px;
 border-radius: 5px;
-text-align: center; / Agregado para centrar los logos /
-margin-bottom: 20px; / Agregado para separar los bloques */
+text-align: center; /* Agregado para centrar los logos */
+margin-bottom: 20px; /* Agregado para separar los bloques*/
 }
 
 /* Modificado para que la imagen del logo sea responsive */
@@ -60,13 +60,13 @@ input[type="text"] {
 height: 22px;
 width: 50%;
 max-width: 280px;
-/* Agrega un ancho máximo para evitar que la barra de búsqueda sea demasiado ancha en pantallas grandes /
+/* Agrega un ancho máximo para evitar que la barra de búsqueda sea demasiado ancha en pantallas grandes */
 font-size: 20px;
 border: 2px solid #ccc;
 border-radius: 5px;
 padding: 5px;
 border-width: 3px;
-/ Ajusta el grosor de la barra de búsqueda */
+/* Ajusta el grosor de la barra de búsqueda */
 }
 
 label,
